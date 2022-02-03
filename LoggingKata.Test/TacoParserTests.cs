@@ -50,7 +50,7 @@ namespace LoggingKata.Test
         [Theory]
         [InlineData("32.801186,-86.576412,Taco Bell Clanto...", 32.801186)]
         [InlineData("34.2223,-84.503673,Taco Bell Canton...", 34.2223)]
-        [InlineData("33.718512,-84.766099,Taco Bell Douglasvill...", 34.795116)]
+        [InlineData("33.718512,-84.766099,Taco Bell Douglasvill...", 33.718512)]
         public void ShouldParseLatitude(string line, double expected)
         {
             // TODO: Complete - "line" represents input data we will Parse to
